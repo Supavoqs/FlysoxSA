@@ -8,7 +8,6 @@ On your hosting (or local environment), install WordPress, then activate these p
 - **PayFast for WooCommerce** (or Yoco / PayGate) — South African card + EFT payments
 - A courier/shipping plugin (Courier Guy, Fastway, PostNet, or Aramex) or WooCommerce's built-in flat-rate/table-rate shipping
 - **Yoast SEO** or **RankMath** — for meta descriptions
-- **Variation Swatches for WooCommerce** — renders the Color attribute as swatches instead of a dropdown (the theme's CSS already styles these)
 
 ## 2. Install the Theme
 1. Zip the `wp-content/themes/flysox-sa` folder.
@@ -17,10 +16,13 @@ On your hosting (or local environment), install WordPress, then activate these p
 4. Appearance → Menus: create a **Primary Menu** (Home, Shop, About Us) and a **Footer Menu**, assign them to the theme locations.
 5. Appearance → Customize → **FlySox Homepage Hero**: confirm/edit the headline, subheadline, CTA label and free-shipping threshold (defaults already match the approved copy).
 
-## 3. Create the Color Attribute
-Products → Attributes → add attribute **Color** (slug `color`), then add these terms:
+## 3. (Optional) Create the Color Attribute
+The current launch catalog (Section 4) is 12 fixed-pattern designs — each design is its own look, so they import as simple products, no color choice needed.
 
-| Term | Suggested hex (for the swatch plugin) |
+If you later want a design offered in multiple recolors of the *same* print, set this up first:
+Products → Attributes → add attribute **Color** (slug `color`), then add terms with these suggested hex codes (for a swatch plugin like **Variation Swatches for WooCommerce**):
+
+| Term | Suggested hex |
 |---|---|
 | Fire Red | #E4572E |
 | Electric Blue | #1B98E0 |
@@ -31,16 +33,23 @@ Products → Attributes → add attribute **Color** (slug `color`), then add the
 | Sunset Orange | #F77F00 |
 | Royal Purple | #6A4C93 |
 
-In Variation Swatches for WooCommerce, set each term's swatch type to **Color** (or **Image**, once you have per-colorway product photos) using the hex codes above.
+The theme's CSS already styles these swatches if you use them.
 
 ## 4. Import the Products
-`data/products-import.csv` contains 3 ready-made variable products (Braai Master, Joburg Nights, Big 5 Stripes), each with all 8 colorways as variations, using the approved product description template.
+`data/products-import.csv` contains the 12-design launch catalog, sourced from the supplier's numbered sock catalog (see `docs/SUPPLIER-DESIGN-MAP.md` for which FlySox name maps to which supplier design #):
+
+- **Food Socks:** Avo Toast, Pizza Party, Braai Breakfast, Shisanyama Stack
+- **Geometric Socks:** Argyle Attack, Boardroom Bold
+- **Space Socks:** Space Cadet, Rocket Fuel
+- **Ocean Socks:** Shark Bait, Turtle Power
+- **Animal Socks:** Good Boy, Corgi Crew
 
 1. Products → Import → upload `data/products-import.csv`.
 2. Map columns (the standard WooCommerce importer auto-maps these headers).
-3. Run the import.
-4. Before or after importing, add real product photos: upload one photo per colorway and attach it to that variation (Products → [Design] → Variations), and set a primary gallery image on the parent product.
-5. Duplicate this CSV pattern for any additional designs — copy a product's 9 rows (1 parent + 8 variations), rename the SKU/Name, and adjust the description.
+3. Run the import — this also creates the 5 product categories (`food-socks`, `geometric-socks`, `space-socks`, `ocean-socks`, `animal-socks`) used by the homepage's "Shop by Vibe" section.
+4. Add real product photos: Products → [Design] → set a featured image and gallery.
+5. Verify the supplier design numbers in `docs/SUPPLIER-DESIGN-MAP.md` against your actual quote/samples before ordering stock — they were read off a catalog screenshot and should be double-checked.
+6. To add more designs later: pick a design from the supplier catalog, add a row to `docs/SUPPLIER-DESIGN-MAP.md`, then add a matching row to `data/products-import.csv` and re-import.
 
 ## 5. Currency & Tax
 - WooCommerce → Settings → General: Currency = **South African rand (R)**, and set your store address.
@@ -48,8 +57,6 @@ In Variation Swatches for WooCommerce, set each term's swatch type to **Color** 
 
 ## 6. Shipping Zones
 WooCommerce → Settings → Shipping → add zones for **Gauteng**, **Western Cape**, and **Rest of South Africa**, each with a flat-rate or courier-calculated rate. Add a **free shipping** method with a minimum order amount of R500 to match the homepage hero copy (also editable via the Customizer field above).
-
-Note: the homepage "Shop by Colour" swatches link to the shop page with a `filter_color` query parameter, which WooCommerce's layered-nav filtering (widget or block) uses automatically once a "Filter Products by Attribute" (Color) widget/block is placed on the shop page.
 
 ## 7. Trust & Compliance Pages
 - Create a **Privacy Policy** page (Settings → Privacy → set it as the site's privacy page) and paste in `content/pages/privacy-policy.md`.
@@ -61,7 +68,9 @@ In Yoast/RankMath, set each product's meta description using the template in `do
 > Funky colorful socks for men, made in South Africa. Bold designs, comfy fit, fast local delivery. Shop FlySox SA today.
 
 ## Launch Checklist
-- [ ] All products set up as variable products with color swatches
+- [ ] 12-design launch catalog imported and categorized (Food / Geometric / Space / Ocean / Animal Socks)
+- [ ] Supplier design numbers verified against samples/quote (`docs/SUPPLIER-DESIGN-MAP.md`)
+- [ ] Product photos uploaded per design
 - [ ] ZAR currency + tax settings configured
 - [ ] SA payment gateway connected and tested
 - [ ] Shipping zones & rates configured

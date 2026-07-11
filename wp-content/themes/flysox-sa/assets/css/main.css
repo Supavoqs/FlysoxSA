@@ -51,11 +51,11 @@ img { max-width:100%; display:block; }
 .trust-badges { background:#fff; border-bottom:1px solid #eee; padding:24px 0; }
 .trust-badges-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; text-align:center; font-weight:600; }
 
-/* Colour grid */
-.shop-by-colour { padding:70px 0; text-align:center; }
-.colour-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin-top:30px; }
-.colour-chip { display:flex; flex-direction:column; align-items:center; gap:10px; font-weight:700; }
-.swatch { width:64px; height:64px; border-radius:50%; border:3px solid var(--flysox-dark); box-shadow:3px 3px 0 var(--flysox-dark); }
+/* Shop by vibe (product category) grid */
+.shop-by-vibe { padding:70px 0; text-align:center; }
+.vibe-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:20px; margin-top:30px; }
+.vibe-chip { display:flex; flex-direction:column; align-items:center; gap:10px; font-weight:700; }
+.vibe-icon { width:64px; height:64px; border-radius:50%; border:3px solid var(--flysox-dark); box-shadow:3px 3px 0 var(--flysox-dark); background:#fff; display:flex; align-items:center; justify-content:center; font-size:1.8rem; }
 
 /* Featured products / teaser sections */
 .featured-products, .about-teaser { padding:70px 0; text-align:center; }
@@ -72,7 +72,7 @@ ul.products li.product:hover { transform:translateY(-4px); }
 ul.products li.product .price { color:var(--flysox-red); font-weight:800; }
 .woocommerce a.button, .woocommerce button.button, .woocommerce #respond input#submit { background:var(--flysox-red); border-radius:999px; border:3px solid var(--flysox-dark); font-weight:700; padding:12px 22px; color:#fff; }
 
-/* Variation swatches (pairs with "Variation Swatches for WooCommerce" plugin) */
+/* Variation swatches (optional — pairs with "Variation Swatches for WooCommerce" plugin, for any future Color-attribute product lines) */
 .variable-items-wrapper .variable-item { border-radius:50% !important; border:3px solid var(--flysox-dark) !important; }
 .variable-items-wrapper .variable-item.selected, .variable-items-wrapper .variable-item:hover { box-shadow:0 0 0 3px var(--flysox-yellow) !important; }
 
@@ -93,6 +93,7 @@ ul.products li.product .price { color:var(--flysox-red); font-weight:800; }
 	.primary-menu { display:none; }
 	.primary-menu.is-open { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:#fff; padding:16px 24px; border-bottom:3px solid var(--flysox-dark); }
 	.mobile-nav-toggle { display:block; }
-	.trust-badges-grid, .colour-grid { grid-template-columns:repeat(2,1fr); }
+	.trust-badges-grid { grid-template-columns:repeat(2,1fr); }
+	.vibe-grid { grid-template-columns:repeat(3,1fr); }
 	.footer-grid { grid-template-columns:repeat(2,1fr); }
 }

@@ -9,15 +9,12 @@ get_header();
 
 $shop_url = function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/shop/' );
 
-$colors = array(
-	'Fire Red'        => '#E4572E',
-	'Electric Blue'   => '#1B98E0',
-	'Sunshine Yellow'  => '#FFC914',
-	'Jungle Green'    => '#2E933C',
-	'Ocean Teal'      => '#16C79A',
-	'Charcoal Camo'   => '#4A4E69',
-	'Sunset Orange'   => '#F77F00',
-	'Royal Purple'    => '#6A4C93',
+$vibes = array(
+	'Food Socks'      => array( 'slug' => 'food-socks', 'icon' => '🍔' ),
+	'Geometric Socks' => array( 'slug' => 'geometric-socks', 'icon' => '🔷' ),
+	'Space Socks'     => array( 'slug' => 'space-socks', 'icon' => '🚀' ),
+	'Ocean Socks'     => array( 'slug' => 'ocean-socks', 'icon' => '🐠' ),
+	'Animal Socks'    => array( 'slug' => 'animal-socks', 'icon' => '🐶' ),
 );
 ?>
 
@@ -38,14 +35,14 @@ $colors = array(
 	</div>
 </section>
 
-<section class="shop-by-colour">
+<section class="shop-by-vibe">
 	<div class="container">
-		<h2>Shop by Colour</h2>
-		<div class="colour-grid">
-			<?php foreach ( $colors as $name => $hex ) : ?>
-				<a class="colour-chip" href="<?php echo esc_url( add_query_arg( 'filter_color', sanitize_title( $name ), $shop_url ) ); ?>">
-					<span class="swatch" style="background:<?php echo esc_attr( $hex ); ?>"></span>
-					<?php echo esc_html( $name ); ?>
+		<h2>Shop by Vibe</h2>
+		<div class="vibe-grid">
+			<?php foreach ( $vibes as $label => $data ) : ?>
+				<a class="vibe-chip" href="<?php echo esc_url( home_url( '/product-category/' . $data['slug'] . '/' ) ); ?>">
+					<span class="vibe-icon"><?php echo esc_html( $data['icon'] ); ?></span>
+					<?php echo esc_html( $label ); ?>
 				</a>
 			<?php endforeach; ?>
 		</div>
