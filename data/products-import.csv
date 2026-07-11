@@ -1,73 +1,109 @@
-Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Regular price,Categories,Tags,Images
+Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Regular price,Categories,Tags,Images,Meta: _yoast_wpseo_metadesc
 simple,FLYSOX-AVO,FlySox – Avo Toast,1,1,visible,"Funky avocado-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Avo Toast — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky avocado-print socks for men, made in South Africa. Comfy fit, bold colours, fast local delivery. Shop FlySox SA today."
 simple,FLYSOX-PIZ,FlySox – Pizza Party,1,1,visible,"Funky pizza-slice print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Pizza Party — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky pizza-slice socks for men, made in South Africa. Bold prints, comfy fit, fast local delivery. Shop FlySox SA today."
 simple,FLYSOX-BRB,FlySox – Braai Breakfast,1,1,visible,"Funky bacon-and-eggs print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Braai Breakfast — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky bacon-and-eggs print socks for men, made in South Africa. Comfy fit, fast delivery. Shop FlySox SA today."
 simple,FLYSOX-SHI,FlySox – Shisanyama Stack,1,1,visible,"Funky burger-stack print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Shisanyama Stack — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky burger-print socks for men, made in South Africa. Bold, comfy, proudly local. Shop FlySox SA today."
 simple,FLYSOX-ARG,FlySox – Argyle Attack,1,1,visible,"Funky bold diamond-argyle print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Argyle Attack — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Geometric Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Geometric Socks","Funky Socks, Mens Socks, South Africa",,"Bold argyle socks for men, made in South Africa. Sharp office style, funky colours, fast delivery. Shop FlySox SA today."
 simple,FLYSOX-BRD,FlySox – Boardroom Bold,1,1,visible,"Funky pink-and-black argyle print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Boardroom Bold — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Geometric Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Geometric Socks","Funky Socks, Mens Socks, South Africa",,"Funky pink-and-black argyle socks for men, made in South Africa. Smart yet loud. Shop FlySox SA today."
 simple,FLYSOX-SPC,FlySox – Space Cadet,1,1,visible,"Funky astronaut-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Space Cadet — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Space Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Space Socks","Funky Socks, Mens Socks, South Africa",,"Funky astronaut-print socks for men, made in South Africa. Bold, comfy, out of this world. Shop FlySox SA today."
 simple,FLYSOX-RKT,FlySox – Rocket Fuel,1,1,visible,"Funky rocket-and-planet print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Rocket Fuel — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Space Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Space Socks","Funky Socks, Mens Socks, South Africa",,"Funky rocket-print socks for men, made in South Africa. Bold colours, comfy fit, fast delivery. Shop FlySox SA today."
 simple,FLYSOX-SHK,FlySox – Shark Bait,1,1,visible,"Funky great white shark print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Shark Bait — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Ocean Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Ocean Socks","Funky Socks, Mens Socks, South Africa",,"Funky shark-print socks for men, made in South Africa. Bold colours, comfy fit, proudly local. Shop FlySox SA today."
 simple,FLYSOX-TTL,FlySox – Turtle Power,1,1,visible,"Funky sea-turtle print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Turtle Power — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Ocean Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Ocean Socks","Funky Socks, Mens Socks, South Africa",,"Funky sea-turtle socks for men, made in South Africa. Bold prints, comfy fit, fast local delivery. Shop FlySox SA today."
 simple,FLYSOX-GDB,FlySox – Good Boy,1,1,visible,"Funky schnauzer-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Good Boy — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",,"Funky schnauzer-print socks for men, made in South Africa. Bold colours, comfy fit. Shop FlySox SA today."
 simple,FLYSOX-CGI,FlySox – Corgi Crew,1,1,visible,"Funky corgi-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Corgi Crew — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
 
 🧵 Cotton-blend, breathable fabric
 👟 Reinforced heel & toe for durability
 📏 One size fits most (UK 6–11)
-🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",,"Funky corgi-print socks for men, made in South Africa. Bold colours, comfy fit, fast delivery. Shop FlySox SA today."
+simple,FLYSOX-PEN,FlySox – Boulders Beach,1,0,visible,"Funky African penguin print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Boulders Beach — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",,"Funky African penguin socks for men, made in South Africa. Bold, comfy, Cape Town inspired. Shop FlySox SA today."
+simple,FLYSOX-MEL,FlySox – Melon Summer,1,0,visible,"Funky watermelon-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Melon Summer — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky watermelon-print socks for men, made in South Africa. Bold summer colours, comfy fit. Shop FlySox SA today."
+simple,FLYSOX-DNT,FlySox – Donut Worry,1,0,visible,"Funky donut-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Donut Worry — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Food Socks","Funky Socks, Mens Socks, South Africa",,"Funky donut-print socks for men, made in South Africa. Bold, comfy, sweet enough to share. Shop FlySox SA today."
+simple,FLYSOX-SCR,FlySox – Soccer Mad,1,0,visible,"Funky soccer-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Soccer Mad — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Sport Socks","Funky Socks, Mens Socks, South Africa",,"Funky soccer-print socks for men, made in South Africa. Bold colours, comfy fit, match-day ready. Shop FlySox SA today."
+simple,FLYSOX-CRF,FlySox – Cape Crayfish,1,0,visible,"Funky crayfish-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Cape Crayfish — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Ocean Socks","Funky Socks, Mens Socks, South Africa",,"Funky crayfish-print socks for men, made in South Africa. Bold coastal colours, comfy fit. Shop FlySox SA today."
+simple,FLYSOX-LIO,FlySox – King of the Bush,1,0,visible,"Funky lion-print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the King of the Bush — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",149.00,"Socks, Animal Socks","Funky Socks, Mens Socks, South Africa",,"Funky lion-print socks for men, made in South Africa. Bold Big 5 colours, comfy fit. Shop FlySox SA today."

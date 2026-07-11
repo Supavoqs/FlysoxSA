@@ -7,7 +7,7 @@ On your hosting (or local environment), install WordPress, then activate these p
 - **WooCommerce** — core store engine
 - **PayFast for WooCommerce** (or Yoco / PayGate) — South African card + EFT payments
 - A courier/shipping plugin (Courier Guy, Fastway, PostNet, or Aramex) or WooCommerce's built-in flat-rate/table-rate shipping
-- **Yoast SEO** or **RankMath** — for meta descriptions
+- **Yoast SEO** or **RankMath** — for meta descriptions (the product CSV already carries these — see step 4)
 
 ## 2. Install the Theme
 1. Zip the `wp-content/themes/flysox-sa` folder.
@@ -17,7 +17,7 @@ On your hosting (or local environment), install WordPress, then activate these p
 5. Appearance → Customize → **FlySox Homepage Hero**: confirm/edit the headline, subheadline, CTA label and free-shipping threshold (defaults already match the approved copy).
 
 ## 3. (Optional) Create the Color Attribute
-The current launch catalog (Section 4) is 12 fixed-pattern designs — each design is its own look, so they import as simple products, no color choice needed.
+The launch catalog (Section 4) is 18 fixed-pattern designs — each design is its own look, so they import as simple products, no color choice needed.
 
 If you later want a design offered in multiple recolors of the *same* print, set this up first:
 Products → Attributes → add attribute **Color** (slug `color`), then add terms with these suggested hex codes (for a swatch plugin like **Variation Swatches for WooCommerce**):
@@ -36,20 +36,21 @@ Products → Attributes → add attribute **Color** (slug `color`), then add ter
 The theme's CSS already styles these swatches if you use them.
 
 ## 4. Import the Products
-`data/products-import.csv` contains the 12-design launch catalog, sourced from the supplier's numbered sock catalog (see `docs/SUPPLIER-DESIGN-MAP.md` for which FlySox name maps to which supplier design #):
+`data/products-import.csv` contains the 18-design launch catalog, sourced from the supplier's numbered sock catalog (see `docs/SUPPLIER-DESIGN-MAP.md` for which FlySox name maps to which supplier design #), each with its SEO meta description already attached:
 
-- **Food Socks:** Avo Toast, Pizza Party, Braai Breakfast, Shisanyama Stack
-- **Geometric Socks:** Argyle Attack, Boardroom Bold
-- **Space Socks:** Space Cadet, Rocket Fuel
-- **Ocean Socks:** Shark Bait, Turtle Power
-- **Animal Socks:** Good Boy, Corgi Crew
+- **Food Socks (6):** Avo Toast, Pizza Party, Braai Breakfast, Shisanyama Stack, Melon Summer, Donut Worry
+- **Geometric Socks (2):** Argyle Attack, Boardroom Bold
+- **Space Socks (2):** Space Cadet, Rocket Fuel
+- **Ocean Socks (3):** Shark Bait, Turtle Power, Cape Crayfish
+- **Animal Socks (4):** Good Boy, Corgi Crew, Boulders Beach, King of the Bush
+- **Sport Socks (1):** Soccer Mad
 
 1. Products → Import → upload `data/products-import.csv`.
-2. Map columns (the standard WooCommerce importer auto-maps these headers).
-3. Run the import — this also creates the 5 product categories (`food-socks`, `geometric-socks`, `space-socks`, `ocean-socks`, `animal-socks`) used by the homepage's "Shop by Vibe" section.
+2. Map columns — the standard headers auto-map, and the `Meta: _yoast_wpseo_metadesc` column maps straight to a custom field, which Yoast SEO reads as the search-result meta description automatically. (Using RankMath instead? Add a `Meta: rank_math_description` column with the same text before importing — see `docs/CONTENT.md` §5 for the full text per product.)
+3. Run the import — this also creates the 6 product categories (`food-socks`, `geometric-socks`, `space-socks`, `ocean-socks`, `animal-socks`, `sport-socks`) used by the homepage's "Shop by Vibe" section.
 4. Add real product photos: Products → [Design] → set a featured image and gallery.
 5. Verify the supplier design numbers in `docs/SUPPLIER-DESIGN-MAP.md` against your actual quote/samples before ordering stock — they were read off a catalog screenshot and should be double-checked.
-6. To add more designs later: pick a design from the supplier catalog, add a row to `docs/SUPPLIER-DESIGN-MAP.md`, then add a matching row to `data/products-import.csv` and re-import.
+6. To add more designs later: pick a design from the supplier catalog, add a row to `docs/SUPPLIER-DESIGN-MAP.md`, then add a matching row to `data/products-import.csv` (including its own meta description) and re-import.
 
 ## 5. Currency & Tax
 - WooCommerce → Settings → General: Currency = **South African rand (R)**, and set your store address.
@@ -63,17 +64,14 @@ WooCommerce → Settings → Shipping → add zones for **Gauteng**, **Western C
 - Create a page at `/returns-exchanges/` and paste in `content/pages/returns-policy.md`.
 - Create an **About Us** page, assign it the **About Us** page template (already in the theme) — leave the content blank to use the built-in approved copy, or paste your own into the block editor.
 
-## 8. SEO
-In Yoast/RankMath, set each product's meta description using the template in `docs/CONTENT.md` (swap in the design name), e.g.:
-> Funky colorful socks for men, made in South Africa. Bold designs, comfy fit, fast local delivery. Shop FlySox SA today.
-
 ## Launch Checklist
-- [ ] 12-design launch catalog imported and categorized (Food / Geometric / Space / Ocean / Animal Socks)
+- [ ] 18-design launch catalog imported and categorized (Food / Geometric / Space / Ocean / Animal / Sport Socks)
+- [ ] Per-product SEO meta descriptions confirmed live in Yoast/RankMath after import
 - [ ] Supplier design numbers verified against samples/quote (`docs/SUPPLIER-DESIGN-MAP.md`)
 - [ ] Product photos uploaded per design
+- [ ] Regular prices reviewed (currently a R149 placeholder on every product — confirm real cost-plus-margin pricing before launch)
 - [ ] ZAR currency + tax settings configured
 - [ ] SA payment gateway connected and tested
 - [ ] Shipping zones & rates configured
 - [ ] Privacy Policy + Returns Policy pages live
 - [ ] Homepage hero copy + About Us page published
-- [ ] Meta descriptions added to each product for SEO

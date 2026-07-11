@@ -15,6 +15,7 @@ $vibes = array(
 	'Space Socks'     => array( 'slug' => 'space-socks', 'icon' => '🚀' ),
 	'Ocean Socks'     => array( 'slug' => 'ocean-socks', 'icon' => '🐠' ),
 	'Animal Socks'    => array( 'slug' => 'animal-socks', 'icon' => '🐶' ),
+	'Sport Socks'     => array( 'slug' => 'sport-socks', 'icon' => '⚽' ),
 );
 ?>
 
