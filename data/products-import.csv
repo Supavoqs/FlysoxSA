@@ -1,0 +1,46 @@
+Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Regular price,Categories,Tags,Images,Parent,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global
+variable,FLYSOX-BM,FlySox – Braai Master,1,1,visible,"Funky braai-flame print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Braai Master — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🎨 Available in multiple colorways
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",,Socks,"Funky Socks, Mens Socks, South Africa",,,Color,"Fire Red, Electric Blue, Sunshine Yellow, Jungle Green, Ocean Teal, Charcoal Camo, Sunset Orange, Royal Purple",1,1
+variation,FLYSOX-BM-FR,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Fire Red,1,1
+variation,FLYSOX-BM-EB,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Electric Blue,1,1
+variation,FLYSOX-BM-SY,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Sunshine Yellow,1,1
+variation,FLYSOX-BM-JG,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Jungle Green,1,1
+variation,FLYSOX-BM-OT,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Ocean Teal,1,1
+variation,FLYSOX-BM-CC,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Charcoal Camo,1,1
+variation,FLYSOX-BM-SO,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Sunset Orange,1,1
+variation,FLYSOX-BM-RP,,1,0,visible,,,149.00,,,,FLYSOX-BM,Color,Royal Purple,1,1
+variable,FLYSOX-JN,FlySox – Joburg Nights,1,1,visible,"Funky city-skyline print socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Joburg Nights — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🎨 Available in multiple colorways
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",,Socks,"Funky Socks, Mens Socks, South Africa",,,Color,"Fire Red, Electric Blue, Sunshine Yellow, Jungle Green, Ocean Teal, Charcoal Camo, Sunset Orange, Royal Purple",1,1
+variation,FLYSOX-JN-FR,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Fire Red,1,1
+variation,FLYSOX-JN-EB,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Electric Blue,1,1
+variation,FLYSOX-JN-SY,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Sunshine Yellow,1,1
+variation,FLYSOX-JN-JG,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Jungle Green,1,1
+variation,FLYSOX-JN-OT,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Ocean Teal,1,1
+variation,FLYSOX-JN-CC,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Charcoal Camo,1,1
+variation,FLYSOX-JN-SO,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Sunset Orange,1,1
+variation,FLYSOX-JN-RP,,1,0,visible,,,149.00,,,,FLYSOX-JN,Color,Royal Purple,1,1
+variable,FLYSOX-B5,FlySox – Big 5 Stripes,1,1,visible,"Funky safari-stripe socks with a comfort-fit design. Bold enough for the office, easy enough for weekends.","Meet the Big 5 Stripes — one of FlySox SA's signature funky designs. Made from a breathable cotton-blend with reinforced heel and toe, these socks are built to handle SA summers and winters alike. Elastic arch support keeps them in place all day, whether you're at your desk, on the golf course, or braaiing with the boys.
+
+🎨 Available in multiple colorways
+🧵 Cotton-blend, breathable fabric
+👟 Reinforced heel & toe for durability
+📏 One size fits most (UK 6–11)
+🇿🇦 Proudly packed in South Africa",,Socks,"Funky Socks, Mens Socks, South Africa",,,Color,"Fire Red, Electric Blue, Sunshine Yellow, Jungle Green, Ocean Teal, Charcoal Camo, Sunset Orange, Royal Purple",1,1
+variation,FLYSOX-B5-FR,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Fire Red,1,1
+variation,FLYSOX-B5-EB,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Electric Blue,1,1
+variation,FLYSOX-B5-SY,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Sunshine Yellow,1,1
+variation,FLYSOX-B5-JG,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Jungle Green,1,1
+variation,FLYSOX-B5-OT,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Ocean Teal,1,1
+variation,FLYSOX-B5-CC,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Charcoal Camo,1,1
+variation,FLYSOX-B5-SO,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Sunset Orange,1,1
+variation,FLYSOX-B5-RP,,1,0,visible,,,149.00,,,,FLYSOX-B5,Color,Royal Purple,1,1
